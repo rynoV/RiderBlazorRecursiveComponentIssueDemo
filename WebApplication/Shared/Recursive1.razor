@@ -1,0 +1,13 @@
+﻿<h3>Recursive1</h3>
+
+@if (Render)
+{
+    <Recursive2></Recursive2>
+}
+
+@code {
+
+    [Parameter]
+    public bool Render { get; set; } = true;
+
+}
